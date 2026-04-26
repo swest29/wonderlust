@@ -39,10 +39,10 @@
 </nav>
 <main id="main">
         <article>
-            Majorca
+            <h2>Majorca</h2>
             <section id="intro">
 
-                <h2>Introduction</h2>
+                <h3>Introduction</h3>
                 <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
                 <div>
                     <picture>
@@ -51,7 +51,9 @@
                         <img src="images/majorca-beach-square-s.jpg"
                              alt="Sea waves crashing on a Majorca beach during sunset">
                     </picture>
+                    <figcaption>
                     <small>Photo by <a href="https://unsplash.com/@charliefirth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlie Firth</a> on <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+                    </figcaption>
                 </div>
             </section>
             <section id="plan-your-trip">
@@ -98,35 +100,34 @@
                 Testimonials
 
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/miranda-blake-L.png" 
-                        images/miranda-blake-S.png 404w
-                        images/miranda-blake-M.png 920w
-                        images/miranda-blake-L.png 1280w
-                    -->
+                    <img src="images/miranda-blake-S.png"
+                    srcset="images/miranda-blake-S.png 404w,
+                            images/miranda-blake-M.png 920w,
+                            images/miranda-blake-L.png 1280w"
+                    sizes="(max-width:600px) 100vw, 50vw"
+                    alt="Miranda Blake portrait">
                         <div>
-                        Miranda Blake
+                        <h3>Miranda Blake</h3>
                         <dl>
                             <dt>Traveling From:</dt>
                             <dd>London, England</dd>
                         </dl>
-                        "I traveled here for business, but my stay was extended. Now it is my home."
+                       <p>"I traveled here for business, but my stay was extended. Now it is my home."</p>
                     </div>
                 </section>
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/max-winter-L.png
-                        images/max-winter-S.png 404w
-                        images/max-winter-M.png 920w
-                        images/max-winter-L.png 1280w
-                    -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/max-winter-L.png">
+                        <source media="(min-width: 920px)" srcset="images/max-winter-M.png">
+                        <img src="images/max-winter-S.png" alt="Max Winter portrait">
+                      </picture>
                         <div>
                         Max Winter
                         <dl>
                             <dt>Traveling From:</dt>
                             <dd>Berlin, Germany</dd>
                         </dl>
-                        "Great escape from my reality. Beautiful sunsets, wonderful people, great beer."
+                       <p>"Great escape from my reality. Beautiful sunsets, wonderful people, great beer."</p>
                     </div>
                 </section>
                 <section>
