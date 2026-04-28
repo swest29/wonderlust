@@ -122,7 +122,7 @@
                         <img src="images/max-winter-S.png" alt="Max Winter portrait">
                       </picture>
                         <div>
-                        Max Winter
+                       <h3>Max Winter</h3>
                         <dl>
                             <dt>Traveling From:</dt>
                             <dd>Berlin, Germany</dd>
@@ -137,7 +137,7 @@
                         <img src="images/ines-villegoes-S.png" alt="Inés Villegoes portrait">
                       </picture>
                     <div>
-                        Inés Villegoes
+                        <h3>Inés Villegoes</h3>
                         <dl>
                             <dt>Traveling From:</dt>
                             <dd>Barcelona, Spain</dd>
@@ -152,7 +152,7 @@
                         <img src="images/carmen-lorenzo-S.png" alt="Carmen Lorenzo portrait">
                       </picture>
                         <div>
-                        Carmen Lorenzo
+                        <h3>Carmen Lorenzo</h3>
                         <dl>
                             <dt>Traveling From:</dt>
                             <dd>Madrid, Spain</dd>
@@ -268,6 +268,7 @@
           
                 <fieldset id="destination">
                     <legend>Destination<span>*</span></legend>
+                    <label for="destination-select" class="visually-hidden">Destination</label>
                     <select id="select-destination">
                         <option>Choose</option>
                         <option>Barcelona</option>
@@ -283,6 +284,7 @@
                 </fieldset>
                 <fieldset id="travelTime">
                     <legend>Travel Time<span>*</span></legend>
+                    <label for="travel-time" class="visually-hidden">Travel Time</label>
                     <select id="select-travel-time">
                         <option>Choose</option>
                         <option>Fall</option>
@@ -292,15 +294,20 @@
                         <option>Flexible</option>
                     </select>
                 </fieldset>
-                <input>
             
+                <button type="submit">Submit</button>
+
+            </form>
         </section>
         <section id="legal">
-            Legal
+            <h2>Legal</h2>
             <small>Copyright 2021 Wonderlust</small>
+            <nav aria-label="Legal links"></nav>
             <a href="#">Privacy Statement</a>
             <a href="#">Terms of Service</a>
+            </nav>
         </section>
+            
     </footer>
 </body>
 </html>
